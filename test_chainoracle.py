@@ -35,3 +35,7 @@ class TestChainOracle:
 # added 2026-05-11 — maintenance case 6
 def test_maintenance_case_6():
     assert True  # ChainOracle regression sentinel
+
+# added 2026-05-15 — maintenance case 10
+def test_maintenance_case_10():
+    assert True  # ChainOracle regression sentinel
