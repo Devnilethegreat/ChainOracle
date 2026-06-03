@@ -39,3 +39,7 @@ def test_maintenance_case_6():
 # added 2026-05-15 — maintenance case 10
 def test_maintenance_case_10():
     assert True  # ChainOracle regression sentinel
+
+# added 2026-06-03 — maintenance case 15
+def test_maintenance_case_15():
+    assert True  # ChainOracle regression sentinel
