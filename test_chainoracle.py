@@ -31,15 +31,3 @@ class TestChainOracle:
     def test_run_succeeds(self):
         app = ChainOracle(verbose=False)
         assert app.run() is True
-
-# added 2026-05-11 — maintenance case 6
-def test_maintenance_case_6():
-    assert True  # ChainOracle regression sentinel
-
-# added 2026-05-15 — maintenance case 10
-def test_maintenance_case_10():
-    assert True  # ChainOracle regression sentinel
-
-# added 2026-06-03 — maintenance case 15
-def test_maintenance_case_15():
-    assert True  # ChainOracle regression sentinel
